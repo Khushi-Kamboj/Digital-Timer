@@ -1,0 +1,288 @@
+* {
+  margin: 0px;
+}
+.main-heading {
+  text-align: center;
+}
+.container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-white-circle {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  color: #00d9f5;
+}
+
+.statusTimer {
+  font-weight: bold;
+}
+.ButtonStyle {
+  background-color: transparent;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.right-container {
+  align-self: center;
+  padding-left: 30px;
+}
+.contain-icon {
+  display: flex;
+  gap: 2%;
+}
+.eachItem {
+  display: flex;
+}
+
+.changeNum {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.incDec {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 30px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .main-heading {
+    font-size: 26px;
+  }
+  .timer-container {
+    height: 200px;
+    width: 200px;
+  }
+
+  .inner-white-circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+  }
+  .time {
+    font-size: 18px;
+  }
+  .statusTimer {
+    font-size: 10px;
+  }
+  .IconsStyling {
+    height: 20px;
+    width: 20px;
+  }
+  .label {
+    font-size: 14px;
+  }
+  .changeNum {
+    padding: 10px;
+  }
+  .para {
+    margin: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .num {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-heading {
+    font-size: 30px;
+  }
+  .timer-container {
+    height: 400px;
+    width: 400px;
+  }
+  .inner-white-circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+  }
+  .time {
+    font-size: 24px;
+  }
+  .statusTimer {
+    font-size: 16px;
+  }
+  .IconsStyling {
+    height: 25px;
+    width: 25px;
+  }
+  .label {
+    font-size: 16px;
+  }
+  .para {
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .changeNum {
+    padding: 10px;
+  }
+  .num {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-heading {
+    font-size: 34px;
+  }
+  .timer-container {
+    height: 400px;
+    width: 400px;
+  }
+  .inner-white-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+  }
+  .time {
+    font-size: 34px;
+  }
+  .statusTimer {
+    font-size: 20px;
+  }
+  .IconsStyling {
+    height: 30px;
+    width: 30px;
+  }
+  .label {
+    font-size: 20px;
+  }
+  .para {
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .num {
+    font-size: 20px;
+  }
+  .changeNum {
+    padding: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .main-heading {
+    font-size: 36px;
+  }
+  .timer-container {
+    height: 400px;
+    width: 400px;
+  }
+
+  .inner-white-circle {
+    height: 140px;
+    width: 140px;
+    border-radius: 140px;
+  }
+
+  .time {
+    font-size: 34px;
+  }
+  .statusTimer {
+    font-size: 22px;
+  }
+  .IconsStyling {
+    height: 35px;
+    width: 35px;
+  }
+  .label {
+    font-size: 25px;
+  }
+  .para {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .num {
+    font-size: 25px;
+  }
+  .changeNum {
+    padding: 10px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .main-heading {
+    font-size: 40px;
+  }
+  .timer-container {
+    height: 540px;
+    width: 540px;
+  }
+  .inner-white-circle {
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
+  }
+  .time {
+    font-size: 38px;
+  }
+  .statusTimer {
+    font-size: 26px;
+  }
+  .IconsStyling {
+    height: 40px;
+    width: 40px;
+  }
+  .label {
+    font-size: 30px;
+  }
+  .para {
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .num {
+    font-size: 30px;
+  }
+  .changeNum {
+    padding: 10px;
+  }
+}
