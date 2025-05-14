@@ -1,4 +1,6 @@
-In this project, let's build a **Digital Timer App** by applying the concepts we have learned till now.
+In this project, let's build a **Digital Timer App** by applying the concepts I have learned till now.
+
+### Link https://digikh.ccbp.tech
 
 ### Refer to the image below:
 
